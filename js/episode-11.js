@@ -1,10 +1,11 @@
 let nbre = prompt("choisiez un nombre;", " ");
-
 nbre = parseFloat(nbre);
 
-for( i=0; i<=10; i++){
-    let resultat = nbre * i;
-    alert(nbre + "*" + i + "="+ resultat);
+let resultat = "";
 
+for( i=0; i<=10; i++){   
+    resultat += nbre + " * " + i + " = " + (nbre * i) +"\n"; 
+    
 }
+alert(resultat);
 
