@@ -1,4 +1,4 @@
-let nbre = prompt("choisiez un nombre;", " ");
+let nbre = prompt("choisiez un chiffres;", " ");
 nbre = parseFloat(nbre);
 
 let resultat = "";

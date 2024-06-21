@@ -1,7 +1,7 @@
-let somme = 0;
+let somme= 1;
 
 for (let i = 1; i <= 10; i++) {
   somme += i;
 }
 
-alert(somme);
+console.log(somme);

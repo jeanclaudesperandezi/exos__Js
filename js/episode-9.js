@@ -1,10 +1,10 @@
 let moyen = prompt("quel est votre moyen :");
 moyen = parseFloat(moyen);
 
-let message = (moyen >= 5 && moyen< 10) ? "mention passable" :
-              (moyen >= 10 && moyen < 12) ? "mention assez-bien" :
-              (moyen >= 13 && moyen < 14) ? "mention bien" :
-              (moyen >= 15 && moyen < 17) ? "mention tres-bien" :
+let message = (moyen >= 10 && moyen <= 11) ? "mention passable" :
+              (moyen >= 12 && moyen <= 13) ? "mention assez-bien" :
+              (moyen >= 14 && moyen <= 15) ? "mention bien" :
+              (moyen >= 16 && moyen <= 17) ? "mention tres-bien" :
               (moyen >= 18 && moyen <= 20) ? "mention excellentte" :
               "mention null";
 

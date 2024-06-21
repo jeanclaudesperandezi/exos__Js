@@ -1,12 +1,12 @@
-let A = prompt("Entrez un nbre");
-let B = prompt("Entrez un nbre");
-let C = prompt("Entrez un nbre");
+let note1= prompt("Entrez un nbre");
+let note2= prompt("Entrez un nbre");
+let note3= prompt("Entrez un nbre");
 
-A = parseFloat(A);
-B = parseFloat(B);
-C = parseFloat(C);
+note1= parseFloat(note1);
+note2= parseFloat(note2);
+note3= parseFloat(note3);
 
 
-let D = (A+B+C)/3;
+let moyenne = (note1+note2+note3)/3;
 
-alert(D)
+alert(moyenne)

@@ -1,3 +1,3 @@
+let bonjour= "Mbolo Js";
 
-
-console.log=("Mbolo js");
+console.log ( bonjour);
